@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Questrial&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Playwrite PE", cursive;
+    font-family: "Moderustic", sans-serif;
+}
+body{
+    background-image: url(/img/fundo\ pink.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a{
     text-decoration: none;
+    
 }
 
 button{
@@ -17,6 +25,7 @@ button{
 
 img{
     object-fit: cover;
+    width: 29px;
 }
 
 h2{
@@ -28,7 +37,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     gap: 32px;
-    border: 1px solid hwb(0 25% 24%);
+    border: 1px solid #ffffff;
     position: absolute;
     top: 16px;
     left: 50%;
@@ -40,7 +49,8 @@ nav{
 nav .logo{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 2px;
+    width: 4px;
 }
 
 nav .logo img{
@@ -49,7 +59,7 @@ nav .logo img{
 }
 
 nav .logo a{
-    color: #000;
+    color: #ffffff;
     font-weight: 600;
 }
 
@@ -59,13 +69,13 @@ nav .nav-links{
 }
 
 nav .nav-links a{
-    font-size: 14px;
-    color: #606060;
+    font-size: 15px;
+    color: #ffffff;
     transition: all 0.3s ease;
 }
 
 nav .nav-links a:hover{
-    color: #c72c2c;
+    color: #e27272;
 }
 
 nav button{
@@ -77,7 +87,7 @@ nav button{
     font-size: 14px;
     height: 32px;
     width: 122px;
-    background-color: hwb(0 26% 27%);
+    background-color: #eb8f8f;
     color: #fff;
     border-radius: 8px;
     border: 1px solid transparent;
@@ -87,7 +97,7 @@ nav button{
 nav button:hover,
 .hero .left-section .top .buttons button.doc:hover,
 .contact .items .item button:hover{
-    color: #ad3d3d;
+    color: #ee8e8e;
     background: #ffffff;
     font-family: "Poppins", sans-serif;
     border-color: #ffffff;
@@ -125,7 +135,7 @@ nav button i{
 }
 
 .hero .left-section .top p{
-    color: #606060;
+    color: #ffffff;
     font-size: 18px;
     margin-bottom: 24px;
     text-align: justify;
@@ -143,7 +153,7 @@ nav button i{
     border: none;
     padding: 5px 20px;
     font-family: "Poppins", sans-serif;
-    background: #fff;
+    background: #ffffff;
     border: 1px solid #dedede;
     border-radius: 12px;
     display: flex;
@@ -161,19 +171,19 @@ nav button i{
 .hero .left-section .top .buttons button.doc,
 .contact .items .item button{
       font-family: "Poppins", sans-serif;
-    background: #c41e1e;
+    background:#ff8686c7;
     color: #fff;
 }
 
 .hero .left-section .top .buttons button.git:hover{
-    background: #cf3f3f;
+    background:#e07d7d;
     color: #fff;
     border-color: transparent;
 }
 
 .hero .left-section .bottom p{
     font-size: 14px;
-    color: #606060;
+    color: #ffffff;
     font-family: "Poppins", sans-serif;
     margin-bottom: 10px;
 }
@@ -194,7 +204,7 @@ nav button i{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #f5f5f5;
+    background: #ffffff;
     padding: 50px;
 }
 
@@ -229,7 +239,7 @@ nav button i{
 }
 
 .about .items .item .inner{
-    background: #ffffff;
+    background: #fdbeab;
     padding: 24px;
     border-radius: 16px;
     border: 1px solid #e8e8e8;
@@ -237,14 +247,14 @@ nav button i{
 }
 
 .about .items .item .inner img{
-    width: 100%;
+    width: 900%;
     margin-bottom: 16px;
-    border-radius: 12px;
+    border-radius: 20px;
 }
 
 .about .items .item .inner a{
     font-size: 18px;
-    color: #c44c4c;
+    color: #ffffff;
     margin-bottom: 10px;
     display: block;
 }
@@ -261,7 +271,10 @@ nav button i{
 }
 
 .projects .inner{
-    background: #c24444;
+    background-image: url(/img/fundo\ pink2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: #fff;
     padding: 70px;
     border-radius: 24px;
@@ -270,7 +283,7 @@ nav button i{
 .projects .inner p.debug{
     font-size: 14px;
     margin-bottom: 12px;
-    color: #000000;
+    color: #ffffff;
     border: 1px solid #484848;
     display: inline-block;
     padding: 6px 12px;
@@ -291,7 +304,7 @@ nav button i{
 .projects .inner p.info{
     font-family: "Poppins", sans-serif;
     font-size: 18px;
-    color: #dedede;
+    color: #000000;
     margin-bottom: 24px;
 }
 
@@ -326,7 +339,7 @@ nav button i{
 .projects .inner .items .item a{
     display: block;
     margin: 24px 0 14px;
-    color: #fff;
+    color:#fa9191;
     font-size: 20px;
 }
 
@@ -348,7 +361,7 @@ nav button i{
 
 .contact .items{
     display: flex;
-    background: #a02f2f;
+    background:  #16462a;
     border-radius: 12px;
 }
 
@@ -368,14 +381,14 @@ nav button i{
 
 .contact .items .item a{
     font-size: 24px;
-    color: #000;
+    color: #002fff;
     display: inline-block;
     margin-bottom: 16px;
 }
 
 .contact .items .item p{
     font-size: 20px;
-    color: #606060;
+    color: #16c984;
     margin-bottom: 26px;
 }
 
@@ -384,7 +397,7 @@ nav button i{
 }
 
 footer{
-    background: #1f1f1f;
+    background: #ffffff;
     border-radius: 24px 24px 0 0;
     padding: 30px;
     display: flex;
@@ -396,7 +409,7 @@ footer{
 footer p,
 footer a{
     font-size: 13px;
-    color: #606060;
+    color: #f37171;
     transition: all 0.3s ease;
 }
 
@@ -454,6 +467,52 @@ footer a:hover{
 
 }
 
+section.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: #f38e8e;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
 @media screen and (max-width: 992px) {
     
     .hero{
@@ -476,11 +535,11 @@ footer a:hover{
         justify-content: center;
     }
 
-    .about .items{
+    .hobbys .items{
         flex-wrap: wrap;
     }
 
-    .about .items .item{
+    .hobbys .items .item{
         width: 40%;
     }
 
